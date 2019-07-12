@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'pixelarticons';
+  src:
+    url('font/pixelarticons.ttf?b7j7hi') format('truetype'),
+    url('font/pixelarticons.woff?b7j7hi') format('woff'),
+    url('font/pixelarticons.svg?b7j7hi#pixelarticons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="px-"], [class*=" px-"] {
+  /* use !important to prevent issues with browser extensions that change font */
+  font-family: 'pixelarticons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-size: 52px;
+  width: 52px;
+  height: 52px;
+}
+
+.px-file:before {
+  content: "\e900";
+}
+.px-file-filled:before {
+  content: "\e901";
+}
+.px-mail:before {
+  content: "\e902";
+}
+.px-mail-filled:before {
+  content: "\e903";
+}
