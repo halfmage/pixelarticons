@@ -14,7 +14,7 @@ Finest handmade pixelart icons based on a 24x24 grid. For retro vibes. https://p
 The `iconfont` folder contains the font files that can be included in a project. You can access the latest version of pixelarticons like this:
 
 ```html
-    <link href="https://unpkg.com/pixelarticons@latest/pixelarticons.css" rel="stylesheet">
+<link href="https://unpkg.com/pixelarticons@latest/pixelarticons.css" rel="stylesheet">
 ```
 
 ### Using svg
