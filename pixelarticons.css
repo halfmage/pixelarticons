@@ -1,15 +1,19 @@
 @font-face {
   font-family: 'pixelarticons';
   src:
-    url('font/pixelarticons.ttf?b7j7hi') format('truetype'),
-    url('font/pixelarticons.woff?b7j7hi') format('woff'),
-    url('font/pixelarticons.svg?b7j7hi#pixelarticons') format('svg');
+    url('font/pixelarticons.ttf?veewns') format('truetype'),
+    url('font/pixelarticons.woff?veewns') format('woff'),
+    url('font/pixelarticons.svg?veewns#pixelarticons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="px-"], [class*=" px-"] {
-  /* use !important to prevent issues with browser extensions that change font */
+.pixelarticons,
+.pixelarticon,
+[class^="px-"],
+[class*=" px-"] {
+  font-size: 24px;
+  /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'pixelarticons' !important;
   speak: none;
   font-style: normal;
@@ -17,25 +21,132 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  font-size: 52px;
-  width: 52px;
-  height: 52px;
 }
 
-.px-file:before {
+.px-48 {
+  font-size: 48px;
+}
+
+.px-72 {
+  font-size: 72px;
+}
+
+.px-angle-double-down:before {
   content: "\e900";
 }
-.px-file-filled:before {
+.px-angle-double-left:before {
   content: "\e901";
 }
-.px-mail:before {
+.px-angle-double-right:before {
   content: "\e902";
 }
-.px-mail-filled:before {
+.px-angle-double-up:before {
   content: "\e903";
+}
+.px-angle-down:before {
+  content: "\e904";
+}
+.px-angle-left:before {
+  content: "\e905";
+}
+.px-angle-right:before {
+  content: "\e906";
+}
+.px-angle-up:before {
+  content: "\e907";
+}
+.px-arrow-down:before {
+  content: "\e908";
+}
+.px-arrow-left:before {
+  content: "\e909";
+}
+.px-arrow-right:before {
+  content: "\e90a";
+}
+.px-arrow-up:before {
+  content: "\e90b";
+}
+.px-arrows-horizontal:before {
+  content: "\e90c";
+}
+.px-arrows-vertical:before {
+  content: "\e90d";
+}
+.px-chevron-down:before {
+  content: "\e90e";
+}
+.px-chevron-left:before {
+  content: "\e90f";
+}
+.px-chevron-right:before {
+  content: "\e910";
+}
+.px-chevron-up:before {
+  content: "\e911";
+}
+.px-chevrons-horizontal:before {
+  content: "\e912";
+}
+.px-chevrons-vertical:before {
+  content: "\e913";
+}
+.px-delete-filled:before {
+  content: "\e914";
+}
+.px-delete:before {
+  content: "\e915";
+}
+.px-file-filled:before {
+  content: "\e916";
+}
+.px-file-text:before {
+  content: "\e917";
+}
+.px-file:before {
+  content: "\e918";
+}
+.px-flag-filled:before {
+  content: "\e919";
+}
+.px-flag:before {
+  content: "\e91a";
+}
+.px-heart-filled:before {
+  content: "\e91b";
+}
+.px-heart:before {
+  content: "\e91c";
+}
+.px-mail-filled:before {
+  content: "\e91d";
+}
+.px-mail:before {
+  content: "\e91e";
+}
+.px-move-down:before {
+  content: "\e91f";
+}
+.px-move-left:before {
+  content: "\e920";
+}
+.px-move-right:before {
+  content: "\e921";
+}
+.px-move-up:before {
+  content: "\e922";
 }

@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/halfmage/pixelarticons/issues"
   },
-  "homepage": "https://github.com/halfmage/pixelarticons#readme"
+  "homepage": "https://github.com/halfmage/pixelarticons#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
