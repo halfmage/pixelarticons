@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'pixelarticons';
   src:
-    url('font/pixelarticons.ttf?veewns') format('truetype'),
-    url('font/pixelarticons.woff?veewns') format('woff'),
-    url('font/pixelarticons.svg?veewns#pixelarticons') format('svg');
+    url('iconfont/pixelarticons.ttf?veewns') format('truetype'),
+    url('iconfont/pixelarticons.woff?veewns') format('woff'),
+    url('iconfont/pixelarticons.svg?veewns#pixelarticons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
