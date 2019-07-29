@@ -20,7 +20,7 @@ The `iconfont` folder contains the font files that can be included in a project.
 ### Using svg
 
 ```shell
-npm install pixelarticons
+npm install pixelarticons --save
 ```
 
 By installing the npm-package your are able to access all icons from the `icons` folder via import:
