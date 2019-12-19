@@ -1,11 +1,12 @@
 @font-face {
   font-family: 'pixelarticons';
   src:
-    url('iconfont/pixelarticons.ttf?veewns') format('truetype'),
-    url('iconfont/pixelarticons.woff?veewns') format('woff'),
-    url('iconfont/pixelarticons.svg?veewns#pixelarticons') format('svg');
+    url('iconfont/pixelarticons.ttf?2z2ld8') format('truetype'),
+    url('iconfont/pixelarticons.woff?2z2ld8') format('woff'),
+    url('iconfont/pixelarticons.svg?2z2ld8#pixelarticons') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
 .pixelarticons,
@@ -45,108 +46,53 @@
   font-size: 72px;
 }
 
-.px-angle-double-down:before {
+
+
+.px-angledown:before {
   content: "\e900";
 }
-.px-angle-double-left:before {
+.px-angleleft:before {
   content: "\e901";
 }
-.px-angle-double-right:before {
+.px-angleright:before {
   content: "\e902";
 }
-.px-angle-double-up:before {
+.px-angleup:before {
   content: "\e903";
 }
-.px-angle-down:before {
+.px-arrowdown:before {
   content: "\e904";
 }
-.px-angle-left:before {
+.px-arrowleft:before {
   content: "\e905";
 }
-.px-angle-right:before {
+.px-arrowright:before {
   content: "\e906";
 }
-.px-angle-up:before {
+.px-arrowup:before {
   content: "\e907";
 }
-.px-arrow-down:before {
+.px-chevrondown:before {
   content: "\e908";
 }
-.px-arrow-left:before {
+.px-chevronleft:before {
   content: "\e909";
 }
-.px-arrow-right:before {
+.px-chevronright:before {
   content: "\e90a";
 }
-.px-arrow-up:before {
+.px-chevronup:before {
   content: "\e90b";
 }
-.px-arrows-horizontal:before {
+.px-keydown:before {
   content: "\e90c";
 }
-.px-arrows-vertical:before {
+.px-keyleft:before {
   content: "\e90d";
 }
-.px-chevron-down:before {
+.px-keyright:before {
   content: "\e90e";
 }
-.px-chevron-left:before {
+.px-keyup:before {
   content: "\e90f";
-}
-.px-chevron-right:before {
-  content: "\e910";
-}
-.px-chevron-up:before {
-  content: "\e911";
-}
-.px-chevrons-horizontal:before {
-  content: "\e912";
-}
-.px-chevrons-vertical:before {
-  content: "\e913";
-}
-.px-delete-filled:before {
-  content: "\e914";
-}
-.px-delete:before {
-  content: "\e915";
-}
-.px-file-filled:before {
-  content: "\e916";
-}
-.px-file-text:before {
-  content: "\e917";
-}
-.px-file:before {
-  content: "\e918";
-}
-.px-flag-filled:before {
-  content: "\e919";
-}
-.px-flag:before {
-  content: "\e91a";
-}
-.px-heart-filled:before {
-  content: "\e91b";
-}
-.px-heart:before {
-  content: "\e91c";
-}
-.px-mail-filled:before {
-  content: "\e91d";
-}
-.px-mail:before {
-  content: "\e91e";
-}
-.px-move-down:before {
-  content: "\e91f";
-}
-.px-move-left:before {
-  content: "\e920";
-}
-.px-move-right:before {
-  content: "\e921";
-}
-.px-move-up:before {
-  content: "\e922";
 }
