@@ -26,5 +26,8 @@
   "homepage": "https://github.com/halfmage/pixelarticons#readme",
   "devDependencies": {
     "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "np": "^6.2.1"
   }
 }
