@@ -1,0 +1,8 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="3" y="3" width="18" height="2" fill="currentColor"/>
+<rect x="3" y="19" width="18" height="2" fill="currentColor"/>
+<rect x="3" y="3" width="2" height="18" fill="currentColor"/>
+<rect x="19" y="3" width="2" height="18" fill="currentColor"/>
+<rect width="2" height="2" transform="matrix(1 0 0 -1 11 9)" fill="currentColor"/>
+<rect width="2" height="6" transform="matrix(1 0 0 -1 11 17)" fill="currentColor"/>
+</svg>

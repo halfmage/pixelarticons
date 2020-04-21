@@ -1,0 +1,12 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="3" y="5" width="2" height="18" fill="currentColor"/>
+<rect width="2" height="18" transform="matrix(-1 0 0 1 17 5)" fill="currentColor"/>
+<rect x="5" y="21" width="2" height="2" fill="currentColor"/>
+<rect x="7" y="19" width="2" height="2" fill="currentColor"/>
+<rect x="9" y="17" width="2" height="2" fill="currentColor"/>
+<rect x="11" y="19" width="2" height="2" fill="currentColor"/>
+<rect x="13" y="21" width="2" height="2" fill="currentColor"/>
+<rect x="3" y="5" width="14" height="2" fill="currentColor"/>
+<rect width="2" height="18" transform="matrix(-1 0 0 1 21 1)" fill="currentColor"/>
+<rect x="7" y="1" width="14" height="2" fill="currentColor"/>
+</svg>
