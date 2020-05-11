@@ -1,5 +1,5 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="24" height="24" fill="white"/>
+
 <rect x="11" y="2" width="2" height="6" fill="currentColor"/>
 <rect x="11" y="16" width="2" height="6" fill="currentColor"/>
 <rect x="22" y="11" width="2" height="6" transform="rotate(90 22 11)" fill="currentColor"/>

@@ -1,6 +1,6 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0)">
-<rect width="24" height="24" fill="white"/>
+
 <path d="M7 4V6H11V12H13V6H17V4H15V2H13V0H11V2H9V4H7Z" fill="currentColor"/>
 <path d="M7 20V18H11V12H13V18H17V20H15V22H13V24H11V22H9V20H7Z" fill="currentColor"/>
 <path d="M20 7L18 7L18 11L12 11L12 13L18 13L18 17L20 17L20 15L22 15L22 13L24 13L24 11L22 11L22 9L20 9L20 7Z" fill="currentColor"/>
@@ -8,7 +8,7 @@
 </g>
 <defs>
 <clipPath id="clip0">
-<rect width="24" height="24" fill="white"/>
+
 </clipPath>
 </defs>
 </svg>
