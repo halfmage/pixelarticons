@@ -1,14 +1,14 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="3" y="5" width="8" height="2" fill="currentColor"/>
-<rect x="3" y="5" width="2" height="16" fill="currentColor"/>
-<rect x="3" y="19" width="16" height="2" fill="currentColor"/>
-<rect x="17" y="13" width="2" height="8" fill="currentColor"/>
-<rect x="7" y="15" width="2" height="2" fill="currentColor"/>
-<rect x="9" y="13" width="2" height="2" fill="currentColor"/>
-<rect x="11" y="11" width="2" height="2" fill="currentColor"/>
-<rect x="13" y="9" width="2" height="2" fill="currentColor"/>
-<rect x="15" y="7" width="2" height="2" fill="currentColor"/>
-<rect x="17" y="5" width="2" height="2" fill="currentColor"/>
-<rect x="19" y="3" width="2" height="8" fill="currentColor"/>
-<rect x="13" y="3" width="8" height="2" fill="currentColor"/>
+<path d="M11 5H3V7H11V5Z" fill="currentColor"/>
+<path d="M5 5H3V21H5V5Z" fill="currentColor"/>
+<path d="M19 19H3V21H19V19Z" fill="currentColor"/>
+<path d="M19 13H17V21H19V13Z" fill="currentColor"/>
+<path d="M9 15H7V17H9V15Z" fill="currentColor"/>
+<path d="M11 13H9V15H11V13Z" fill="currentColor"/>
+<path d="M13 11H11V13H13V11Z" fill="currentColor"/>
+<path d="M15 9H13V11H15V9Z" fill="currentColor"/>
+<path d="M17 7H15V9H17V7Z" fill="currentColor"/>
+<path d="M19 5H17V7H19V5Z" fill="currentColor"/>
+<path d="M21 3H19V11H21V3Z" fill="currentColor"/>
+<path d="M21 3H13V5H21V3Z" fill="currentColor"/>
 </svg>

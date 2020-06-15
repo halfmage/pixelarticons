@@ -2,9 +2,9 @@
 <rect x="3" y="21" width="18" height="2" transform="rotate(-90 3 21)" fill="currentColor"/>
 <rect x="9" y="21" width="18" height="2" transform="rotate(-90 9 21)" fill="currentColor"/>
 <rect x="3" y="21" width="2" height="8" transform="rotate(-90 3 21)" fill="currentColor"/>
-<rect x="3" y="5" width="2" height="8" transform="rotate(-90 3 5)" fill="currentColor"/>
-<rect x="13" y="21" width="18" height="2" transform="rotate(-90 13 21)" fill="currentColor"/>
+<rect x="3" y="4.99997" width="2" height="8" transform="rotate(-90 3 4.99997)" fill="currentColor"/>
+<rect x="13.0002" y="21" width="18" height="2" transform="rotate(-90 13.0002 21)" fill="currentColor"/>
 <rect x="19" y="21" width="18" height="2" transform="rotate(-90 19 21)" fill="currentColor"/>
-<rect x="13" y="21" width="2" height="8" transform="rotate(-90 13 21)" fill="currentColor"/>
-<rect x="13" y="5" width="2" height="8" transform="rotate(-90 13 5)" fill="currentColor"/>
+<rect x="13.0002" y="21" width="2" height="8" transform="rotate(-90 13.0002 21)" fill="currentColor"/>
+<rect x="13.0002" y="4.99997" width="2" height="8" transform="rotate(-90 13.0002 4.99997)" fill="currentColor"/>
 </svg>

@@ -1,11 +1,11 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="2" y="3" width="20" height="2" fill="currentColor"/>
-<rect x="14" y="19" width="8" height="2" fill="currentColor"/>
-<rect x="2" y="3" width="2" height="6" fill="currentColor"/>
-<rect x="20" y="3" width="2" height="18" fill="currentColor"/>
-<rect x="2" y="19" width="2" height="2" fill="currentColor"/>
-<rect x="2" y="15" width="4" height="2" fill="currentColor"/>
-<rect x="2" y="11" width="10" height="2" fill="currentColor"/>
-<rect x="6" y="15" width="2" height="6" fill="currentColor"/>
-<rect x="10" y="11" width="2" height="10" fill="currentColor"/>
+<rect x="2" y="2.48932" width="20" height="2" fill="currentColor"/>
+<rect x="14" y="18.4893" width="7.99999" height="2" fill="currentColor"/>
+<rect x="2" y="2.48932" width="2" height="5.99999" fill="currentColor"/>
+<rect x="20" y="2.48932" width="2" height="18" fill="currentColor"/>
+<rect x="2" y="18.4893" width="2" height="2" fill="currentColor"/>
+<rect x="2" y="14.4893" width="3.99999" height="2" fill="currentColor"/>
+<rect x="2" y="10.4893" width="10" height="2" fill="currentColor"/>
+<rect x="6" y="14.4893" width="2" height="5.99999" fill="currentColor"/>
+<rect x="10" y="10.4893" width="2" height="10" fill="currentColor"/>
 </svg>

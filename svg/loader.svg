@@ -1,15 +1,14 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-<rect x="11" y="2" width="2" height="6" fill="currentColor"/>
-<rect x="11" y="16" width="2" height="6" fill="currentColor"/>
-<rect x="22" y="11" width="2" height="6" transform="rotate(90 22 11)" fill="currentColor"/>
-<rect x="8" y="11" width="2" height="6" transform="rotate(90 8 11)" fill="currentColor"/>
-<rect x="15" y="7" width="2" height="2" fill="currentColor"/>
-<rect x="17" y="5" width="2" height="2" fill="currentColor"/>
-<rect width="2" height="2" transform="matrix(-1 0 0 1 9 7)" fill="currentColor"/>
-<rect width="2" height="2" transform="matrix(-1 0 0 1 7 5)" fill="currentColor"/>
-<rect width="2" height="2" transform="matrix(1 0 0 -1 15 17)" fill="currentColor"/>
-<rect width="2" height="2" transform="matrix(1 0 0 -1 17 19)" fill="currentColor"/>
-<rect x="9" y="17" width="2" height="2" transform="rotate(-180 9 17)" fill="currentColor"/>
-<rect x="7" y="19" width="2" height="2" transform="rotate(-180 7 19)" fill="currentColor"/>
+<rect x="10.9998" y="2.00006" width="2" height="6" fill="currentColor"/>
+<rect x="10.9998" y="16" width="2" height="6" fill="currentColor"/>
+<rect x="21.9998" y="11" width="2" height="6" transform="rotate(90 21.9998 11)" fill="currentColor"/>
+<rect x="7.99976" y="11" width="2" height="6" transform="rotate(90 7.99976 11)" fill="currentColor"/>
+<rect x="14.9995" y="7.00003" width="2" height="2" fill="currentColor"/>
+<rect x="16.9995" y="5.00003" width="2" height="2" fill="currentColor"/>
+<rect width="2" height="2" transform="matrix(-1 0 0 1 8.99951 7.00003)" fill="currentColor"/>
+<rect width="2" height="2" transform="matrix(-1 0 0 1 6.99951 5.00003)" fill="currentColor"/>
+<rect width="2" height="2" transform="matrix(1 0 0 -1 14.9995 17)" fill="currentColor"/>
+<rect width="2" height="2" transform="matrix(1 0 0 -1 16.9995 19)" fill="currentColor"/>
+<rect x="8.99951" y="17" width="2" height="2" transform="rotate(-180 8.99951 17)" fill="currentColor"/>
+<rect x="6.99951" y="19" width="2" height="2" transform="rotate(-180 6.99951 19)" fill="currentColor"/>
 </svg>

@@ -1,10 +1,10 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="9" y="2" width="6" height="2" fill="currentColor"/>
-<rect width="6" height="2" transform="matrix(1 0 0 -1 9 22)" fill="currentColor"/>
-<rect width="2" height="20" transform="matrix(1 0 0 -1 9 22)" fill="currentColor"/>
-<rect width="2" height="20" transform="matrix(1 0 0 -1 13 22)" fill="currentColor"/>
-<rect x="22" y="9" width="6" height="2" transform="rotate(90 22 9)" fill="currentColor"/>
-<rect x="22" y="9" width="2" height="20" transform="rotate(90 22 9)" fill="currentColor"/>
-<rect x="22" y="13" width="2" height="20" transform="rotate(90 22 13)" fill="currentColor"/>
-<rect width="6" height="2" transform="matrix(-4.37114e-08 1 1 4.37114e-08 2 9)" fill="currentColor"/>
+<path d="M15 2H9V4H15V2Z" fill="currentColor"/>
+<path d="M15 22H9V20H15V22Z" fill="currentColor"/>
+<path d="M11 22H9V2H11V22Z" fill="currentColor"/>
+<path d="M15 22H13V2H15V22Z" fill="currentColor"/>
+<path d="M22 15V9H20V15H22Z" fill="currentColor"/>
+<path d="M22 11V9L2 9V11L22 11Z" fill="currentColor"/>
+<path d="M22 15V13L2 13V15L22 15Z" fill="currentColor"/>
+<path d="M2 15L2 9L4 9L4 15L2 15Z" fill="currentColor"/>
 </svg>

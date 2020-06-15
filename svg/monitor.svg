@@ -1,9 +1,9 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="2" y="3" width="20" height="2" fill="currentColor"/>
+<rect x="2" y="3.00006" width="20" height="2" fill="currentColor"/>
 <rect x="2" y="15" width="20" height="2" fill="currentColor"/>
-<rect x="2" y="3" width="2" height="14" fill="currentColor"/>
-<rect x="20" y="3" width="2" height="14" fill="currentColor"/>
+<rect x="2" y="3.00006" width="2" height="14" fill="currentColor"/>
+<rect x="20.0002" y="3.00006" width="2" height="14" fill="currentColor"/>
 <rect x="9" y="15" width="2" height="6" fill="currentColor"/>
-<rect x="13" y="15" width="2" height="6" fill="currentColor"/>
-<rect x="6" y="19" width="12" height="2" fill="currentColor"/>
+<rect x="13.0002" y="15" width="2" height="6" fill="currentColor"/>
+<rect x="6.00024" y="19" width="12" height="2" fill="currentColor"/>
 </svg>

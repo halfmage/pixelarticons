@@ -1,9 +1,7 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="15" y="5" width="2" height="14" fill="currentColor"/>
-<rect x="15" y="5" width="6" height="4" fill="currentColor"/>
-<rect x="11" y="13" width="6" height="6" fill="currentColor"/>
-<rect x="3" y="5" width="10" height="2" fill="currentColor"/>
-<rect x="3" y="9" width="10" height="2" fill="currentColor"/>
-<rect x="3" y="13" width="6" height="2" fill="currentColor"/>
-<rect x="3" y="17" width="6" height="2" fill="currentColor"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16 13V9V5H18H22V9H18V13V15V17V19H16H12H10V17V15V13H12H16ZM12 15H16V17H12V15Z" fill="currentColor"/>
+<rect x="2" y="17" width="6" height="2" fill="currentColor"/>
+<rect x="2" y="13" width="6" height="2" fill="currentColor"/>
+<rect x="2" y="9" width="12" height="2" fill="currentColor"/>
+<rect x="2" y="5" width="12" height="2" fill="currentColor"/>
 </svg>
