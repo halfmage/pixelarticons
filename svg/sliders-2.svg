@@ -1,14 +1,14 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="12" y="9" width="2" height="9" transform="rotate(-90 12 9)" fill="black"/>
-<rect x="17" y="17" width="2" height="4" transform="rotate(-90 17 17)" fill="black"/>
-<rect x="2" y="9" width="2" height="4" transform="rotate(-90 2 9)" fill="black"/>
-<rect x="2" y="17" width="2" height="9" transform="rotate(-90 2 17)" fill="black"/>
-<rect x="6" y="11" width="2" height="6" transform="rotate(-90 6 11)" fill="black"/>
-<rect x="6" y="7" width="2" height="6" transform="rotate(-90 6 7)" fill="black"/>
-<rect x="6" y="11" width="6" height="2" transform="rotate(-90 6 11)" fill="black"/>
-<rect x="10" y="11" width="6" height="2" transform="rotate(-90 10 11)" fill="black"/>
-<rect x="11" y="19" width="2" height="6" transform="rotate(-90 11 19)" fill="black"/>
-<rect x="11" y="15" width="2" height="6" transform="rotate(-90 11 15)" fill="black"/>
-<rect x="11" y="19" width="6" height="2" transform="rotate(-90 11 19)" fill="black"/>
-<rect x="15" y="19" width="6" height="2" transform="rotate(-90 15 19)" fill="black"/>
+<rect x="12" y="9" width="2" height="9" transform="rotate(-90 12 9)" fill="currentColor"/>
+<rect x="17" y="17" width="2" height="4" transform="rotate(-90 17 17)" fill="currentColor"/>
+<rect x="2" y="9" width="2" height="4" transform="rotate(-90 2 9)" fill="currentColor"/>
+<rect x="2" y="17" width="2" height="9" transform="rotate(-90 2 17)" fill="currentColor"/>
+<rect x="6" y="11" width="2" height="6" transform="rotate(-90 6 11)" fill="currentColor"/>
+<rect x="6" y="7" width="2" height="6" transform="rotate(-90 6 7)" fill="currentColor"/>
+<rect x="6" y="11" width="6" height="2" transform="rotate(-90 6 11)" fill="currentColor"/>
+<rect x="10" y="11" width="6" height="2" transform="rotate(-90 10 11)" fill="currentColor"/>
+<rect x="11" y="19" width="2" height="6" transform="rotate(-90 11 19)" fill="currentColor"/>
+<rect x="11" y="15" width="2" height="6" transform="rotate(-90 11 15)" fill="currentColor"/>
+<rect x="11" y="19" width="6" height="2" transform="rotate(-90 11 19)" fill="currentColor"/>
+<rect x="15" y="19" width="6" height="2" transform="rotate(-90 15 19)" fill="currentColor"/>
 </svg>

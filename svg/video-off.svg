@@ -1,16 +1,16 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="20" y="19" width="14" height="2" transform="rotate(-90 20 19)" fill="black"/>
-<rect x="16" y="15" width="2" height="2" transform="rotate(-90 16 15)" fill="black"/>
-<rect x="18" y="17" width="2" height="2" transform="rotate(-90 18 17)" fill="black"/>
-<rect x="16" y="11" width="2" height="2" transform="rotate(-90 16 11)" fill="black"/>
-<rect x="18" y="9" width="2" height="2" transform="rotate(-90 18 9)" fill="black"/>
-<rect x="2" y="5" width="2" height="14" fill="black"/>
-<rect x="14" y="5" width="2" height="14" fill="black"/>
-<rect x="2" y="5" width="14" height="2" fill="black"/>
-<rect x="2" y="17" width="14" height="2" fill="black"/>
-<rect x="8" y="11" width="2" height="2" fill="black"/>
-<rect x="10" y="13" width="2" height="2" fill="black"/>
-<rect x="10" y="9" width="2" height="2" fill="black"/>
-<rect x="6" y="13" width="2" height="2" fill="black"/>
-<rect x="6" y="9" width="2" height="2" fill="black"/>
+<rect x="20" y="19" width="14" height="2" transform="rotate(-90 20 19)" fill="currentColor"/>
+<rect x="16" y="15" width="2" height="2" transform="rotate(-90 16 15)" fill="currentColor"/>
+<rect x="18" y="17" width="2" height="2" transform="rotate(-90 18 17)" fill="currentColor"/>
+<rect x="16" y="11" width="2" height="2" transform="rotate(-90 16 11)" fill="currentColor"/>
+<rect x="18" y="9" width="2" height="2" transform="rotate(-90 18 9)" fill="currentColor"/>
+<rect x="2" y="5" width="2" height="14" fill="currentColor"/>
+<rect x="14" y="5" width="2" height="14" fill="currentColor"/>
+<rect x="2" y="5" width="14" height="2" fill="currentColor"/>
+<rect x="2" y="17" width="14" height="2" fill="currentColor"/>
+<rect x="8" y="11" width="2" height="2" fill="currentColor"/>
+<rect x="10" y="13" width="2" height="2" fill="currentColor"/>
+<rect x="10" y="9" width="2" height="2" fill="currentColor"/>
+<rect x="6" y="13" width="2" height="2" fill="currentColor"/>
+<rect x="6" y="9" width="2" height="2" fill="currentColor"/>
 </svg>
