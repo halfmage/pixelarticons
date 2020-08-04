@@ -29,9 +29,9 @@ Finest handmade pixelart icons based on a 24x24 grid. For retro vibes.
 
 ## Current tasks
 
-[] Figma file with components
-[] Updating svg source code for all icons
-[] Convert all rectangles into svg-paths
+[ ] Figma file with components
+[ ] Updating svg source code for all icons
+[ ] Convert all rectangles into svg-paths
 
 ## Where else to find?
 
