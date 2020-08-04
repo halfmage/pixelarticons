@@ -18,17 +18,23 @@ yarn add pixelarticons
 By installing the npm-package your are able to access all icons from the `icons` folder via import:
 
 ```jsx
-import File from "pixelarticons/svg/file.svg"
+import File from "pixelarticons/svg/file.svg";
 ```
 
 This will be updated in the future ti make it easier to implement icons, including use of props.
 
-## What are pixelarticons? 
+## What are pixelarticons?
 
-Finest handmade pixelart icons based on a 24x24 grid. For retro vibes. 
+Finest handmade pixelart icons based on a 24x24 grid. For retro vibes.
 
+## Current tasks
+
+[] Figma file with components
+[] Updating svg source code for all icons
+[] Convert all rectangles into svg-paths
 
 ## Where else to find?
-- [Website](https://www.pixelarticons.com "Pixelarticons - Website") 
-- [Instagram](https://www.instagram.com/pixelarticons/ "Pixelarticons - Instagram") 
-- [NPM](https://www.npmjs.com/package/pixelarticons "Pixelarticons - Npm") 
+
+- [Website](https://www.pixelarticons.com "Pixelarticons - Website")
+- [Instagram](https://www.instagram.com/pixelarticons/ "Pixelarticons - Instagram")
+- [NPM](https://www.npmjs.com/package/pixelarticons "Pixelarticons - Npm")
