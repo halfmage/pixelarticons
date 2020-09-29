@@ -1,8 +1,6 @@
 ![alt text](cover.jpg "Pixelarticons Cover")
 
-# Pixelarticons
-
-## 👉 [Officical website](https://pixelarticons.com "Pixelarticons - Website")
+# [Pixelarticons.com](https://pixelarticons.com "Pixelarticons - Website")
 
 ![npm](https://img.shields.io/npm/v/pixelarticons.svg?color=green&label=npm&style=popout-square)
 ![npm](https://img.shields.io/npm/dt/pixelarticons.svg?color=blue&style=popout-square)
@@ -31,9 +29,10 @@ Finest handmade pixelart icons based on a 24x24 grid. For retro vibes.
 
 ## Current tasks
 
-- Figma file with components **In Progress**
-- Updating svg source code for all icons **In Progress**
-- Convert all rectangles into svg-paths **In Progress**
+- [x] Figma file with components
+- [x] Updating svg source code for all icons
+- [x] Convert all rectangles into svg-paths
+- [ ] Make public figma-file with icon library
 
 ## Where else to find?
 
