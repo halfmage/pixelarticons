@@ -1,15 +1,1 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M9.00006 3H7.00005V5V5.00004H4.00024H2.00024V7.00004V19V21V21H4.00024V21H20.0002V21H22.0002V21H22.0002V19H22.0002V7.00004H22.0003V5.00004H22.0002H20.0002H17.0003V7.00004H20.0002V19H4.00024V7.00004H9.00024V5.00004H9.00006V5H15.0001V7H17.0001V3H17.0001H15.0001H9.00006Z" fill="currentColor"/>
-<rect x="2.00024" y="5.00006" width="7" height="2" fill="currentColor"/>
-<rect x="7" y="3" width="2" height="4" fill="currentColor"/>
-<rect x="15" y="3" width="2" height="4" fill="currentColor"/>
-<rect x="7" y="3" width="10" height="2" fill="currentColor"/>
-<rect x="15" y="5" width="7" height="2" fill="currentColor"/>
-<rect x="2.00024" y="5.00006" width="2" height="16" fill="currentColor"/>
-<rect x="2.00024" y="19.0001" width="20" height="2" fill="currentColor"/>
-<rect x="20.0002" y="5.00006" width="2" height="16" fill="currentColor"/>
-<rect x="10.0002" y="9.00003" width="4" height="2" fill="currentColor"/>
-<rect x="10.0002" y="15" width="4" height="2" fill="currentColor"/>
-<rect x="8" y="11" width="2" height="4" fill="currentColor"/>
-<rect x="14" y="11" width="2" height="4" fill="currentColor"/>
-</svg>
+<svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 3H7v2H2v16h20V5h-5V3H9zm8 4h3v12H4V7h5V5h6v2h2zm-7 2h4v2h-4V9zm4 6h-4v2h4v-2h2v-4h-2v4zm-6-4h2v4H8v-4z" fill="currentColor"/></svg>

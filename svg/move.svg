@@ -1,13 +1,1 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0)">
-<path d="M7 4V6H11V12H13V6H17V4H15V2H13V0H11V2H9V4H7Z" fill="currentColor"/>
-<path d="M7 20V18H11V12H13V18H17V20H15V22H13V24H11V22H9V20H7Z" fill="currentColor"/>
-<path d="M20 7.00003L18 7.00003L18 11L12 11L12 13L18 13L18 17L20 17L20 15L22 15L22 13L24 13L24 11L22 11L22 9.00003L20 9.00003L20 7.00003Z" fill="currentColor"/>
-<path d="M4 7.00003L6 7.00003L6 11L12 11L12 13L6 13L6 17L4 17L4 15L2 15L2 13L-2.62268e-07 13L-1.74846e-07 11L2 11L2 9.00003L4 9.00003L4 7.00003Z" fill="currentColor"/>
-</g>
-<defs>
-<clipPath id="clip0">
-<rect width="24" height="24" fill="white"/>
-</clipPath>
-</defs>
-</svg>
+<svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 0h-2v2H9v2H7v2h2V4h2v7H4V9h2V7H4v2H2v2H0v2h2v2h2v2h2v-2H4v-2h7v7H9v-2H7v2h2v2h2v2h2v-2h2v-2h2v-2h-2v2h-2v-7h7v2h-2v2h2v-2h2v-2h2v-2h-2V9h-2V7h-2v2h2v2h-7V4h2v2h2V4h-2V2h-2V0z" fill="currentColor"/></svg>

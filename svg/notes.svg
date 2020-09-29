@@ -1,11 +1,1 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="3" y="12" width="8" height="2" fill="currentColor"/>
-<rect x="3" y="18" width="8" height="2" fill="currentColor"/>
-<rect x="3.00024" y="12" width="2" height="8" fill="currentColor"/>
-<rect x="9" y="4" width="2" height="16" fill="currentColor"/>
-<rect x="9.00024" y="4" width="12" height="4" fill="currentColor"/>
-<rect x="13" y="12" width="8" height="2" fill="currentColor"/>
-<rect x="13" y="18" width="8" height="2" fill="currentColor"/>
-<rect x="13.0002" y="12" width="2" height="8" fill="currentColor"/>
-<rect x="19" y="4" width="2" height="16" fill="currentColor"/>
-</svg>
+<svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 2h16v20H3V2h2zm14 18V4H5v16h14zM7 6h10v2H7V6zm10 4H7v2h10v-2zM7 14h7v2H7v-2z" fill="currentColor"/></svg>

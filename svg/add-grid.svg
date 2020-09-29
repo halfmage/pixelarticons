@@ -1,16 +1,1 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M2.99976 3.00006H10.9998V5.00006H2.99976V3.00006Z" fill="currentColor"/>
-<path d="M2.99976 9.00006H10.9998V11.0001H2.99976V9.00006Z" fill="currentColor"/>
-<path d="M2.99976 3.00006H4.99976V11.0001H2.99976V3.00006Z" fill="currentColor"/>
-<path d="M8.99976 3.00006H10.9998V11.0001H8.99976V3.00006Z" fill="currentColor"/>
-<path d="M12.9998 3.00006H20.9998V5.00006H12.9998V3.00006Z" fill="currentColor"/>
-<path d="M12.9998 9.00006H20.9998V11.0001H12.9998V9.00006Z" fill="currentColor"/>
-<path d="M12.9998 3.00006H14.9998V11.0001H12.9998V3.00006Z" fill="currentColor"/>
-<path d="M18.9998 3.00006H20.9998V11.0001H18.9998V3.00006Z" fill="currentColor"/>
-<path d="M2.99976 13H10.9998V15H2.99976V13Z" fill="currentColor"/>
-<path d="M2.99976 19H10.9998V21H2.99976V19Z" fill="currentColor"/>
-<path d="M2.99976 13H4.99976V21H2.99976V13Z" fill="currentColor"/>
-<path d="M8.99976 13H10.9998V21H8.99976V13Z" fill="currentColor"/>
-<rect x="12.9998" y="16.0001" width="8" height="2" fill="currentColor"/>
-<rect x="15.9998" y="13" width="2" height="8" fill="currentColor"/>
-</svg>
+<svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 3h8v8H3V3zm6 6V5H5v4h4zm9 4h-2v3h-3v2h3v3h2v-3h3v-2h-3v-3zM15 3h6v8h-8V3h2zm4 6V5h-4v4h4zM5 13h6v8H3v-8h2zm4 6v-4H5v4h4z" fill="currentColor"/></svg>

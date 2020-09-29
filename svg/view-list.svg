@@ -1,6 +1,1 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="4" y="5" width="16" height="2" fill="currentColor"/>
-<rect x="4" y="9" width="16" height="2" fill="currentColor"/>
-<rect x="4" y="17" width="16" height="2" fill="currentColor"/>
-<rect x="4" y="13" width="16" height="2" fill="currentColor"/>
-</svg>
+<svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 5h20v14H2V5zm2 2v2h16V7H4zm16 4H4v2h16v-2zm0 4H4v2h16v-2z" fill="currentColor"/></svg>

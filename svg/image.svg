@@ -1,14 +1,1 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="1.99951" y="4" width="20" height="2" fill="currentColor"/>
-<rect x="1.99951" y="18" width="20" height="2" fill="currentColor"/>
-<rect x="1.99951" y="4" width="2" height="16" fill="currentColor"/>
-<rect x="19.9998" y="4" width="2" height="16" fill="currentColor"/>
-<rect x="3.99976" y="11.9999" width="2" height="2" fill="currentColor"/>
-<rect x="5.99976" y="9.99994" width="2" height="2" fill="currentColor"/>
-<rect x="7.99976" y="8" width="2" height="2" fill="currentColor"/>
-<rect x="9.99951" y="9.99994" width="2" height="2" fill="currentColor"/>
-<rect x="11.9998" y="11.9999" width="2" height="2" fill="currentColor"/>
-<rect x="13.9998" y="14" width="2" height="2" fill="currentColor"/>
-<rect x="15.9998" y="16" width="2" height="2" fill="currentColor"/>
-<rect x="15.9998" y="6.99997" width="2" height="2" fill="currentColor"/>
-</svg>
+<svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 3H2v18h20V3H4zm16 2v14H4V5h16zm-6 4h-2v2h-2v2H8v2H6v2h2v-2h2v-2h2v-2h2v2h2v2h2v-2h-2v-2h-2V9zM8 7H6v2h2V7z" fill="currentColor"/></svg>

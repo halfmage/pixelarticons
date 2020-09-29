@@ -1,6 +1,1 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="14" y="15" width="2" height="6" transform="rotate(-180 14 15)" fill="currentColor"/>
-<rect x="12" y="18" width="2" height="12" transform="rotate(-180 12 18)" fill="currentColor"/>
-<rect x="10" y="20" width="2" height="16" transform="rotate(-180 10 20)" fill="currentColor"/>
-<rect width="2" height="2" transform="matrix(1 0 0 -1 14 13)" fill="currentColor"/>
-</svg>
+<svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 20H8V4h2v2h2v3h2v2h2v2h-2v2h-2v3h-2v2z" fill="currentColor"/></svg>
