@@ -41,8 +41,9 @@ Or us the svg code directly:
 - [x] Updating svg source code for all icons
 - [x] Convert all rectangles into svg-paths
 - [ ] Make public figma-file with icon library
-- [ ] Prepare a filled version set
-- [ ] Prepare version sets for different sizes
+- [ ] Add a new filled set
+- [ ] Add a new 32x32 set
+- [ ] Add brands and social media icons
 
 ## Where else to find?
 
