@@ -15,11 +15,15 @@
 ## Gettings Started
 ### Use any icons staticly from CDN
 ```html
-<img src="https://unpkg.com/pixelarticons@latest/svg/ICONNAME.svg" />
+<!-- get the file icon from unpkg -->
+<img src="https://unpkg.com/pixelarticons@latest/svg/file.svg" />
+
+<!-- get the file icon from jsdelivr -->
+<img src="https://cdn.jsdelivr.net/npm/pixelarticons@latest/svg/file.svg>
 ```
 ### Install via package manager
-```javascript
-npm i pixelarticons
+```bash
+npm i pixelarticons # or yarn add pixelarticons
 ```
 ```jsx
 // import the file.svg icon directly
