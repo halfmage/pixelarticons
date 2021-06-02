@@ -24,7 +24,7 @@
     "url": "https://github.com/halfmage/pixelarticons/issues"
   },
   "homepage": "https://github.com/halfmage/pixelarticons#readme",
-  "dependencies": {
+  "devDependencies": {
     "np": "^6.5.0"
   }
 }
