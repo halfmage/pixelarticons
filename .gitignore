@@ -1,6 +1,7 @@
 # pixelarticons specific
 index.html
 .DS_Store
+package-lock.json
 
 # Logs
 logs
