@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/halfmage/pixelarticons#readme",
   "devDependencies": {
-    "np": "^7.6.0"
+    "np": "^7.7.0"
   }
 }
