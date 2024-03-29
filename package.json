@@ -1,6 +1,6 @@
 {
   "name": "pixelarticons",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "Finest handmade pixelart icons.",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/halfmage/pixelarticons#readme",
   "devDependencies": {
-    "np": "^7.6.0",
+    "np": "^7.7.0",
     "svgtofont": "^3.23.1"
   }
 }
