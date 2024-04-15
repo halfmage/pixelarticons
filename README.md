@@ -16,12 +16,12 @@
 
 ### Install via package manager
 ```bash
-npm i pixelarticons@1.8.0
+npm i pixelarticons@latest
 ```
 
 ### Use directly via unpkg (replace "file")
 ```html
-<img src="https://unpkg.com/pixelarticons@1.8.0/svg/file.svg" />
+<img src="https://unpkg.com/pixelarticons@1.8.1/svg/file.svg" />
 ```
 
 ## Generate webfont
