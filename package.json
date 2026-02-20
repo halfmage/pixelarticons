@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "font": "svgtofont --sources ./svg --output ./fonts",
+    "validate": "node scripts/validate-icons.js",
+    "browser": "node scripts/generate-browser.js && open icons.html",
     "test": "echo \"Error: no test specified\""
   },
   "repository": {
