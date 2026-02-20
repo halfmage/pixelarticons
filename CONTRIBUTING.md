@@ -45,11 +45,3 @@ npm run validate
 
 Checks every `.svg` in `svg/` against the three rules above. Exits with code 1 and lists failures if any rule is violated.
 
-## Known Exceptions
-
-Two icons intentionally deviate from the standard rules:
-
-- **`gift.svg`** — uses `stroke="currentColor"` instead of `fill`
-- **`sliders-2.svg`** — uses `stroke="currentColor"` instead of `fill`
-
-These are conscious design choices for icons whose shapes are better expressed as strokes. New icons should **not** use `stroke`; use `fill="currentColor"` instead.
