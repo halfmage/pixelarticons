@@ -3,11 +3,17 @@
   "version": "1.9.0",
   "description": "Finest handmade pixelart icons.",
   "main": "index.js",
+  "peerDependencies": {
+    "react": ">=16"
+  },
   "bin": {
     "pixelarticons": "bin/pull.js"
   },
   "scripts": {
     "font": "svgtofont --sources ./svg --output ./fonts",
+    "generate:react": "rm -rf fonts/react && mkdir -p fonts/react && node scripts/generate-react.js",
+    "build:react": "babel fonts/react --out-dir react --presets @babel/preset-react --copy-files",
+    "prepublishOnly": "npm run generate:react && npm run build:react",
     "validate": "node scripts/validate-icons.js",
     "browser": "node scripts/generate-browser.js && open icons.html",
     "test": "echo \"Error: no test specified\""
@@ -31,6 +37,9 @@
   },
   "homepage": "https://github.com/halfmage/pixelarticons#readme",
   "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-react": "^7.28.5",
     "np": "^7.7.0",
     "svgtofont": "^3.23.1"
   }
