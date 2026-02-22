@@ -7,7 +7,7 @@
     "react": ">=16"
   },
   "bin": {
-    "pixelarticons": "bin/pull.js"
+    "pixelarticons": "bin/upgrade.js"
   },
   "scripts": {
     "font": "svgtofont --sources ./svg --output ./fonts",
