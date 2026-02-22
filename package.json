@@ -1,6 +1,6 @@
 {
   "name": "pixelarticons",
-  "version": "1.9.0",
+  "version": "2.0.0",
   "description": "Finest handmade pixelart icons.",
   "main": "index.js",
   "peerDependencies": {
