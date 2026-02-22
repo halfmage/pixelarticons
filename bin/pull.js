@@ -45,7 +45,7 @@ function spinner(text) {
 const keyArg = process.argv.slice(2).find((a) => a.startsWith('--key='));
 
 if (!keyArg || !keyArg.slice('--key='.length).trim()) {
-  console.error('Usage: npx pixelarticons upgrade --key=YOUR_LICENSE_KEY');
+  console.error('Usage: npx pixelarticons pull --key=YOUR_LICENSE_KEY');
   process.exit(1);
 }
 
@@ -91,13 +91,7 @@ postJSON(VERIFY_URL, { licenseKey })
   .then(({ tmpFile, s2 }) => {
     execSync(`unzip -o "${tmpFile}" -d "${svgDir}"`, { stdio: 'ignore' });
     fs.unlinkSync(tmpFile);
-    s2.succeed('Icons downloaded');
-
-    const root = path.join(__dirname, '..');
-    const s3 = spinner('Generating React components...');
-    execSync('npm run generate:react', { cwd: root, stdio: 'ignore' });
-    execSync('npm run build:react', { cwd: root, stdio: 'ignore' });
-    s3.succeed('Done — All 2000+ icons are now available as SVGs and React components!\n');
+    s2.succeed('Upgraded — All icons are now available!\n');
   })
   .catch((err) => {
     process.stderr.write(`\r${RED}✗${RESET} ${err.message}\n`);
