@@ -28,14 +28,14 @@ npm install pixelarticons
 Every icon ships as a ready-to-use React component with full TypeScript types.
 
 ```jsx
-import { Heart, ArrowLeft, AddBox } from 'pixelarticons/react'
+import { Heart, Home, Bell, Mail, Lock } from 'pixelarticons/react'
 
 export default function App() {
   return (
     <div>
       <Heart width={48} height={48} />
-      <ArrowLeft className="text-blue-500" />
-      <AddBox style={{ color: 'red' }} />
+      <Home className="text-blue-500" />
+      <Bell style={{ color: 'red' }} />
     </div>
   )
 }
@@ -49,7 +49,7 @@ Components accept all standard SVG props (`width`, `height`, `className`, `style
 import { Heart } from 'pixelarticons/react/Heart'
 ```
 
-Icon names follow **PascalCase** matching their SVG filename (`arrow-left.svg` → `ArrowLeft`). Icons whose names start with a digit are prefixed with `Icon` (e.g. `4g.svg` → `Icon4G`).
+Icon names follow **PascalCase** matching their SVG filename (`alarm-clock.svg` → `AlarmClock`). Icons whose names start with a digit are prefixed with `Icon` (e.g. `4g.svg` → `Icon4G`).
 
 ---
 
@@ -79,7 +79,7 @@ Use any icon directly via [unpkg](https://unpkg.com) without installing anything
 <img src="https://unpkg.com/pixelarticons@latest/svg/heart.svg" width="48" />
 ```
 
-Replace `heart` with any icon name (kebab-case, e.g. `arrow-left`, `add-box`, `zoom-in`).
+Replace `heart` with any icon name (kebab-case, e.g. `home`, `bell`, `alarm-clock`).
 
 ---
 
@@ -108,7 +108,7 @@ The free package includes 800 icons. If you purchased a license, run the upgrade
 npx pixelarticons upgrade --key=YOUR_LICENSE_KEY
 ```
 
-This verifies your license and downloads all icons directly into your local `svg/` directory — no extra setup needed.
+This verifies your license, downloads all icons into your local `svg/` directory, and automatically regenerates the React components — no extra setup needed.
 
 You can find your license key in your **Gumroad library** or in the **purchase confirmation email** you received from Gumroad.
 
