@@ -16,7 +16,7 @@ There are no build, lint, or test commands — this is a static SVG icon library
 
 ## Architecture
 
-This is a pixel art icon library with 486 hand-crafted SVG icons.
+This is a pixel art icon library with 800 hand-crafted SVG icons.
 
 **Source icons** live in `svg/` as individual `.svg` files. Each icon is a 24×24 viewBox SVG using `fill="currentColor"` and composed entirely of `<path>` elements (no other shapes), following a strict pixel-grid aesthetic without anti-aliasing.
 
