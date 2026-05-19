@@ -36,7 +36,10 @@
   },
   "homepage": "https://github.com/halfmage/pixelarticons#readme",
   "devDependencies": {
-    "np": "^7.7.0",
-    "svgtofont": "^3.23.1"
+    "np": "^11.2.1",
+    "svgtofont": "^6.5.2"
+  },
+  "overrides": {
+    "tmp": "^0.2.5"
   }
 }
