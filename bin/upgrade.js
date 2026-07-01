@@ -97,7 +97,7 @@ postJSON(VERIFY_URL, { licenseKey })
     const reactDir = path.join(root, 'react');
     const s3 = spinner('Generating React components...');
     generateReact(svgDir, reactDir);
-    s3.succeed('Done — All 2000+ icons are now available as SVGs and React components!\n');
+    s3.succeed('Done — All 4400+ icons are now available as SVGs and React components!\n');
   })
   .catch((err) => {
     process.stderr.write(`\r${RED}✗${RESET} ${err.message}\n`);

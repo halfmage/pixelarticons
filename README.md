@@ -6,10 +6,16 @@
 [![npm downloads](https://img.shields.io/npm/dt/pixelarticons.svg?color=black&style=flat-square)](https://www.npmjs.com/package/pixelarticons)
 [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg?style=flat-square)](LICENSE)
 
-**800 handcrafted pixel art icons** — drawn on a strict 24×24 grid, no anti-aliasing, pure `<path>` elements, `fill="currentColor"`. Works with React, as raw SVGs, via CDN, or as a webfont.
+**880 handcrafted pixel art icons** — drawn on a strict 24×24 grid, no anti-aliasing, pure `<path>` elements, `fill="currentColor"`. Works with React, as raw SVGs, via CDN, or as a webfont.
 
 - [🌐 Browse all icons](https://pixelarticons.com)
 - [🎨 Figma community file](https://www.figma.com/community/file/952542622393317653/Pixelarticons)
+
+---
+
+## What's new
+
+**July 2026 — 4,421 icons & the full alphabet.** The complete A–Z now ships in three styles (plain letters, circle-framed, and square-framed), alongside new people, animals, energy, media, currency, and loader icons. 64 of the 108 new icons landed in the free set, bringing it to **880 icons**. [Read the full update →](https://pixelarticons.com/updates/4421-icons-alphabet/)
 
 ---
 
@@ -100,9 +106,9 @@ Link the generated CSS and use icon classes in HTML:
 
 ---
 
-## Unlock all 2000+ icons
+## Unlock all 4400+ icons
 
-The free package includes 800 icons. If you purchased a license, run the upgrade command to unlock the full icon set:
+The free package includes 880 icons. If you purchased a license, run the upgrade command to unlock the full icon set:
 
 ```bash
 npx pixelarticons upgrade --key=YOUR_LICENSE_KEY
