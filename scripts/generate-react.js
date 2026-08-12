@@ -11,9 +11,13 @@ function toPascalCase(str) {
 
 function extractShapes(inner) {
   const results = [];
+  // <defs> holds clip paths, masks and gradients. Their shapes define regions,
+  // they never paint. Scraping them emits an extra filled rect on top of the
+  // icon, which renders the whole component as a solid block.
+  const painted = inner.replace(/<defs\b[\s\S]*?<\/defs>/g, '');
   const shapeRegex = /<(path|rect|circle|ellipse|line|polygon|polyline)\s([^>]*?)\s*\/?>/gs;
   let m;
-  while ((m = shapeRegex.exec(inner)) !== null) {
+  while ((m = shapeRegex.exec(painted)) !== null) {
     const tag = m[1];
     const attrs = {};
     const attrRegex = /([\w-]+)="([^"]*)"/g;

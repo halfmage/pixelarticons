@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-  <g clip-path="url(#a)">
-    <path d="M5 2h2v20H5zm12 0h2v20h-2z"/>
-    <path d="M2 5h20v2H2zm0 12h20v2H2z"/>
-    <path d="M5 2h2v20H5zm12 0h2v11h-2z"/>
-    <path d="M2 5h20v2H2zm0 12h11v2H2zm13 0h6v2h-6z"/>
-    <path d="M17 15h2v6h-2z"/>
-  </g>
-  <defs>
-    <clipPath id="a">
-      <path fill="#fff" d="M0 0h24v24H0z"/>
-    </clipPath>
-  </defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M7 5h10V2h2v3h3v2h-3v10h3v2h-3v3h-2v-3H7v3H5v-3H2v-2h3V7H2V5h3V2h2v3Zm0 12h10V7H7v10Z"/></svg>

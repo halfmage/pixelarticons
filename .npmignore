@@ -1,4 +1,10 @@
 # pixelarticons specific
+# svgtofont also emits fonts/react and fonts/vue. Both are broken: the React
+# files are JSX inside .js (and carry a stray comma between paths), and the Vue
+# files declare viewBox="0 0 20 20" for 24x24 artwork. The hand-rolled react/
+# directory is the supported one, so neither ships.
+fonts/react/
+fonts/vue/
 index.html
 icons.html
 .svgtofontrc

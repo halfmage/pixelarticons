@@ -55,7 +55,7 @@ Components accept all standard SVG props (`width`, `height`, `className`, `style
 import { Heart } from 'pixelarticons/react/Heart'
 ```
 
-Icon names follow **PascalCase** matching their SVG filename (`alarm-clock.svg` → `AlarmClock`). Icons whose names start with a digit are prefixed with `Icon` (e.g. `4g.svg` → `Icon4G`).
+Icon names follow **PascalCase** matching their SVG filename (`alarm-clock.svg` → `AlarmClock`). Style variants keep their suffix (`heart-solid.svg` → `HeartSolid`); the base style has none.
 
 ---
 
@@ -91,18 +91,20 @@ Replace `heart` with any icon name (kebab-case, e.g. `home`, `bell`, `alarm-cloc
 
 ### Webfont
 
-Generate `.ttf`, `.woff`, `.woff2`, `.eot`, `.svg` fonts plus CSS/SCSS stylesheets into `./fonts/`:
+The package ships a prebuilt webfont (`.woff2`, `.woff`, `.ttf`, `.eot`, `.svg`) with stylesheets in CSS, Less, SCSS and Stylus. Nothing to generate:
 
-```bash
-npm run font
+```js
+import 'pixelarticons/fonts/pixelart-icons-font.css'
 ```
 
-Link the generated CSS and use icon classes in HTML:
+One class per icon, named `pixelart-icons-font-` plus the icon name:
 
 ```html
-<link rel="stylesheet" href="fonts/pixelarticons.css" />
-<i class="pixel-heart"></i>
+<i class="pixelart-icons-font-heart"></i>
+<i class="pixelart-icons-font-alarm-clock"></i>
 ```
+
+The webfont covers the free icons. `pixelarticons upgrade` adds SVG files and React components, and does not rebuild the font, so Pro icons need the React or raw SVG route.
 
 ---
 
@@ -114,9 +116,21 @@ The free package includes 880 icons. If you purchased a license, run the upgrade
 npx pixelarticons upgrade --key=YOUR_LICENSE_KEY
 ```
 
-This verifies your license, downloads all icons into your local `svg/` directory, and automatically regenerates the React components — no extra setup needed.
+This verifies your license, downloads every icon into the installed package, and regenerates the React components. Your imports do not change: `pixelarticons/react` and `pixelarticons/svg` simply resolve more icons.
 
-You can find your license key in your **Gumroad library** or in the **purchase confirmation email** you received from Gumroad.
+You can find your license key in your **Gumroad library** or in the **purchase confirmation email** you received from Gumroad. The command needs the `unzip` program and network access, and it accepts keys for the Base Pro product.
+
+Because it writes into the installed package, a clean install brings back the free set. Keep it applied by adding a postinstall script and storing the key as an environment variable or CI secret:
+
+```json
+{
+  "scripts": {
+    "postinstall": "pixelarticons upgrade --key=$PIXELARTICONS_LICENSE_KEY"
+  }
+}
+```
+
+For offline builds, copy `node_modules/pixelarticons/svg/*.svg` into your own repository once and treat the icons as project assets. Full guide: [pixelarticons.com/docs](https://pixelarticons.com/docs/).
 
 ---
 
