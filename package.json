@@ -4,6 +4,14 @@
   "description": "Finest handmade pixelart icons.",
   "main": "index.js",
   "types": "index.d.ts",
+  "exports": {
+    ".": "./index.js",
+    "./react": "./react/index.js",
+    "./react/*": "./react/*",
+    "./svg/*": "./svg/*",
+    "./fonts/*": "./fonts/*",
+    "./package.json": "./package.json"
+  },
   "peerDependencies": {
     "react": ">=16"
   },
