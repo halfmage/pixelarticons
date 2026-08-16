@@ -150,20 +150,26 @@ function generateReact(svgDir, outDir) {
     const shapes = extractShapes(innerMatch[1]);
     const shapeElements = shapes.map(({ tag, attrs }) => {
       const attrStr = Object.entries(attrs).map(([k, v]) => `${k}: ${JSON.stringify(v)}`).join(', ');
-      return `React.createElement('${tag}', {${attrStr}})`;
+      return `h('${tag}', {${attrStr}})`;
     }).join(', ');
 
+    // No "React" binding here: the react.svg brand icon exports a component
+    // named React, which would collide with a default import.
     fs.writeFileSync(path.join(outDir, `${componentName}.js`),
-      `import React from 'react';\nexport const ${componentName} = (props) => React.createElement('svg', Object.assign({viewBox: '0 0 24 24', width: '24', height: '24', fill: 'currentColor', xmlns: 'http://www.w3.org/2000/svg'}, props), ${shapeElements});\n`
+      `import { createElement as h } from 'react';\nexport const ${componentName} = (props) => h('svg', Object.assign({viewBox: '0 0 24 24', width: '24', height: '24', fill: 'currentColor', xmlns: 'http://www.w3.org/2000/svg'}, props), ${shapeElements});\n`
     );
     fs.writeFileSync(path.join(outDir, `${componentName}.d.ts`),
-      `import React from 'react';\nexport declare const ${componentName}: (props: React.SVGProps<SVGSVGElement>) => JSX.Element;\n`
+      `import type * as React_2 from 'react';\nexport declare const ${componentName}: (props: React_2.SVGProps<SVGSVGElement>) => React_2.JSX.Element;\n`
     );
-    exportLines.push(`export * from './${componentName}';`);
+    // Explicit .js extension: Node's ESM resolver refuses extensionless paths,
+    // so without it the entry only works through bundlers and breaks SSR.
+    exportLines.push(`export * from './${componentName}.js';`);
   }
 
   fs.writeFileSync(path.join(outDir, 'index.js'), exportLines.join('\n') + '\n');
   fs.writeFileSync(path.join(outDir, 'index.d.ts'), exportLines.join('\n') + '\n');
+  // The root package is CommonJS, so Node parses .js here as CJS without this marker.
+  fs.writeFileSync(path.join(outDir, 'package.json'), JSON.stringify({ type: 'module', sideEffects: false }, null, 2) + '\n');
 }
 
 // --- helpers ---
