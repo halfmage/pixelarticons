@@ -6,7 +6,7 @@
 [![npm downloads](https://img.shields.io/npm/dt/pixelarticons.svg?color=black&style=flat-square)](https://www.npmjs.com/package/pixelarticons)
 [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg?style=flat-square)](LICENSE)
 
-**880 handcrafted pixel art icons** — drawn on a strict 24×24 grid, no anti-aliasing, pure `<path>` elements, `fill="currentColor"`. Works with React, as raw SVGs, via CDN, or as a webfont.
+**1036 handcrafted pixel art icons** — drawn on a strict 24×24 grid, no anti-aliasing, pure `<path>` elements, `fill="currentColor"`. Works with React, as raw SVGs, via CDN, or as a webfont.
 
 - [🌐 Browse all icons](https://pixelarticons.com)
 - [🎨 Figma community file](https://www.figma.com/community/file/952542622393317653/Pixelarticons)
@@ -14,6 +14,8 @@
 ---
 
 ## What's new
+
+**August 2026: the free set grows to 1036 icons.** 159 icons move from Pro to free. The batch covers the brand icons developers ask for most (GitHub, X, Discord, Figma, Docker, Linux and more), the missing UI essentials (pause, stop, refresh, sun, sliders, dollar, percent), and their sharp, glyph and solid variants. Every icon stays MIT licensed. [Browse the full set →](https://pixelarticons.com)
 
 **July 2026 — 4,421 icons & the full alphabet.** The complete A–Z now ships in three styles (plain letters, circle-framed, and square-framed), alongside new people, animals, energy, media, currency, and loader icons. 64 of the 108 new icons landed in the free set, bringing it to **880 icons**. [Read the full update →](https://pixelarticons.com/updates/4421-icons-alphabet/)
 
