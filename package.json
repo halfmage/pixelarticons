@@ -1,7 +1,7 @@
 {
   "name": "pixelarticons",
   "version": "2.4.1",
-  "description": "Finest handmade pixelart icons.",
+  "description": "1036 free pixel art icons on a strict 24x24 grid, as SVG, React components and a webfont.",
   "main": "index.js",
   "types": "index.d.ts",
   "exports": {

@@ -6,7 +6,7 @@
 [![npm downloads](https://img.shields.io/npm/dt/pixelarticons.svg?color=black&style=flat-square)](https://www.npmjs.com/package/pixelarticons)
 [![License: MIT](https://img.shields.io/badge/license-MIT-black.svg?style=flat-square)](LICENSE)
 
-**1036 handcrafted pixel art icons** — drawn on a strict 24×24 grid, no anti-aliasing, pure `<path>` elements, `fill="currentColor"`. Works with React, as raw SVGs, via CDN, or as a webfont.
+**1036 free pixel art icons**, drawn on a strict 24×24 grid: no anti-aliasing, pure `<path>` elements, `fill="currentColor"`. Works with React, as raw SVGs, via CDN, or as a webfont.
 
 - [🌐 Browse all icons](https://pixelarticons.com)
 - [🎨 Figma community file](https://www.figma.com/community/file/952542622393317653/Pixelarticons)
@@ -15,9 +15,11 @@
 
 ## What's new
 
+**October 2026: 5497 icons and a new website.** The full set now holds 5497 icons, and [pixelarticons.com](https://pixelarticons.com) has a new design with a clearer pricing page and a [brand page](https://pixelarticons.com/brand/). The free set stays at 1036 icons. [Read the update →](https://pixelarticons.com/updates/new-website-design/)
+
 **August 2026: the free set grows to 1036 icons.** 159 icons move from Pro to free. The batch covers the brand icons developers ask for most (GitHub, X, Discord, Figma, Docker, Linux and more), the missing UI essentials (pause, stop, refresh, sun, sliders, dollar, percent), and their sharp, glyph and solid variants. Every icon stays MIT licensed. [Browse the full set →](https://pixelarticons.com)
 
-**July 2026 — 4,421 icons & the full alphabet.** The complete A–Z now ships in three styles (plain letters, circle-framed, and square-framed), alongside new people, animals, energy, media, currency, and loader icons. 64 of the 108 new icons landed in the free set, bringing it to **880 icons**. [Read the full update →](https://pixelarticons.com/updates/4421-icons-alphabet/)
+**July 2026: 4,421 icons & the full alphabet.** The complete A–Z now ships in three styles (plain letters, circle-framed, and square-framed), alongside new people, animals, energy, media, currency, and loader icons. 64 of the 108 new icons landed in the free set, bringing it to **880 icons**. [Read the full update →](https://pixelarticons.com/updates/4421-icons-alphabet/)
 
 ---
 
@@ -63,7 +65,7 @@ Icon names follow **PascalCase** matching their SVG filename (`alarm-clock.svg` 
 
 ### Raw SVG
 
-The `svg/` directory contains every icon as a standalone file — drop them directly into any project:
+The `svg/` directory contains every icon as a standalone file: drop them directly into any project:
 
 ```html
 <img src="node_modules/pixelarticons/svg/heart.svg" width="48" height="48" />
@@ -110,9 +112,9 @@ The webfont covers the free icons. `pixelarticons upgrade` adds SVG files and Re
 
 ---
 
-## Unlock all 4400+ icons
+## Unlock all 5497 icons
 
-The free package includes 880 icons. If you purchased a license, run the upgrade command to unlock the full icon set:
+The free package includes 1036 icons. If you purchased a license, run the upgrade command to unlock the full icon set:
 
 ```bash
 npx pixelarticons upgrade --key=YOUR_LICENSE_KEY
@@ -141,7 +143,7 @@ For offline builds, copy `node_modules/pixelarticons/svg/*.svg` into your own re
 Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for the full design rules and naming conventions. The short version:
 
 - `viewBox="0 0 24 24"`, `<path>` elements only, `fill="currentColor"`
-- Paths must align to the pixel grid — no sub-pixel coordinates
+- Paths must align to the pixel grid, no sub-pixel coordinates
 - Filenames use kebab-case describing function, not appearance
 
 **Useful commands:**
